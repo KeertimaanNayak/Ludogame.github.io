@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Play Ludo</title>
+	<style>
+        #main{
+            width:1000px;
+            float:left;
+        }
+        .pawns{
+            width:30px;
+            height:30px;
+            border-radius:20px;
+            position:absolute;
+        }
+        #board{
+            background:url('ludoboard.jpg');
+            background-size:cover;
+            width:760px;
+            height:760px;
+            float:left;
+            margin-top:-5px;
+            margin-left:390px;
+        }
+        #uselesstext1{
+            float:left;
+            padding-left:10px;
+            padding-right:10px;
+            position: absolute;
+            top:200px;
+            right:270px;
+            font-size: 30px;
+        }
+        #player{
+        	position: absolute;
+        	top:230px;
+        	right:220px;
+        	font-size: 20px;
+        }
+        #uselesstext2{
+        	position: absolute;
+        	top:200px;
+        	right:130px;
+        	font-size: 30px;
+        }
+        #badtext{
+        	position: absolute;
+        	top:260px;
+        	right: 200px;
+        	font-size: 30px;
+        	color: red;
+        }
+        footer{
+            font-size:larger;
+            color:darkred;
+
+        }
+    </style>
+	<script src="ludo.js"></script>
+</head>
+<body>
+    <div id="main">
+    <div id="board"></div>
+     <div id="dice" onclick="randomNum()" style="background-image:url('dice.gif');background-size:contain; width:150px;height:150px; float:left; position: absolute;top:60px;right:80px;"></div>
+    <div class="pawns" id="redpawn1"    onclick="randomMove('red',1)"       style="background-color:red;top:545px;left:505px;"></div>
+    <div class="pawns" id="redpawn2"    onclick="randomMove('red',2)"       style="background-color:red;top:545px;left:595px;"></div>
+    <div class="pawns" id="redpawn3"    onclick="randomMove('red',3)"       style="background-color:red;top:625px;left:505px;"></div>
+    <div class="pawns" id="redpawn4"    onclick="randomMove('red',4)"       style="background-color:red;top:625px;left:595px;"></div>
+
+    <!-- yellow pawns  start top 523 left 218-->
+    <div class="pawns" id="yellowpawn1" onclick="randomMove('yellow',1)"    style="background-color:yellow;top:115px;left:930px;"></div>
+    <div class="pawns" id="yellowpawn2" onclick="randomMove('yellow',2)"    style="background-color:yellow;top:115px;left:1020px;"></div>
+    <div class="pawns" id="yellowpawn3" onclick="randomMove('yellow',3)"    style="background-color:yellow;top:195px;left:930px;"></div>
+    <div class="pawns" id="yellowpawn4" onclick="randomMove('yellow',4)"    style="background-color:yellow;top:195px;left:1020px;"></div>
+
+    <!-- green pawns  start top 227 left 22-->
+    <div class="pawns" id="greenpawn1"  onclick="randomMove('green',1)"     style="background-color:green;top:115px;left:505px;"></div>
+    <div class="pawns" id="greenpawn2"  onclick="randomMove('green',2)"     style="background-color:green;top:115px;left:595px;"></div>
+    <div class="pawns" id="greenpawn3"  onclick="randomMove('green',3)"     style="background-color:green;top:195px;left:505px;"></div>
+    <div class="pawns" id="greenpawn4"  onclick="randomMove('green',4)"     style="background-color:green;top:195px;left:595px;"></div>
+
+    <!-- blue pawns  start top 326 left 515-->
+    <div class="pawns" id="bluepawn1"   onclick="randomMove('blue',1)"      style="background-color:blue;top:545px;left:930px;"></div>
+    <div class="pawns" id="bluepawn2"   onclick="randomMove('blue',2)"      style="background-color:blue;top:545px;left:1020px;"></div>
+    <div class="pawns" id="bluepawn3"   onclick="randomMove('blue',3)"      style="background-color:blue;top:625px;left:930px;"></div>
+    <div class="pawns" id="bluepawn4"   onclick="randomMove('blue',4)"      style="background-color:blue;top:625px;left:1020px;"></div>
+
+
+    <h4 id="uselesstext1">It`s </h4><h3 id="player" style="float:left; color:red">red</h3><h4 id="uselesstext2">`s turn</h4>
+    <p id="badtext" style="float:left;"></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('b3.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:100% 100%;
+	background-position: center;
+}
+.intro h1{
+    position: absolute;
+    top:30px;
+    left:200px;
+    font-size: 60px;
+    font-family: Comic Sans MS;
+    color: red;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-direction:alternate-reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+  from {color: red;}
+  to {color: yellow;}
+  from{left:300px;}
+  to{left:600px;}
+}
+.intro h2{
+	position:absolute;
+	top: 500px;
+	left:780px;
+	font-size: 40px;
+	font-family: Comic Sans MS;
+	color:#031321;
+	animation-name: example2;
+    animation-duration: 2s;
+    animation-direction:alternate-reverse;
+    animation-direction: center;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes example2{
+	from{font-size: 40px;}
+	to{font-size: 60px;}
+}
+#Ludo{
+	font-size: 30px;
+	font-family: consolas;
+    color:#2196f3;
+	display: block;
+	width:10%;
+	position: absolute;
+	text-transform: uppercase;
+	top:620px;
+	left:780px; 
+    text-align: center;
+    padding: 5px 20px;
+    background:#031321;
+    text-decoration: none;
+    transition: 0.2s;
+}
+#Ludo:hover{
+	color:#255784;
+	background:#2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; 
+}
+#Instruction{
+	font-size: 30px;
+	font-family: consolas;
+    color:#2196f3;
+	display: block;
+	width:15%;
+	position: absolute;
+	text-transform: uppercase;
+	top:620px;
+	left:1000px; 
+    text-align: center;
+    padding: 5px 20px;
+    background:#031321;
+    text-decoration: none;
+    transition: 0.2s;
+}
+#Instruction:hover{
+	color:#255784;
+	background:#2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; 
+}
+footer{
+	position: absolute;
+	top:720px;
+	background-color: grey;
+	width: 100%;
+	height:3vh;
+	font-size:20px;
+	font-weight: 200;
+	text-align: center;
+}
