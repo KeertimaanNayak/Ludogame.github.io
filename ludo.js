@@ -8,17 +8,8 @@ var currpawn = "";
 var allcolor = ["red", "blue", "green", "yellow"];
 var pawnOut = {red:0,blue:0,green:0,yellow:0}
 function randomNum() {
-    var value=window.prompt("Enter number between 1 and 6 or enter space to roll dice");
-    if(!clicked){
-        if(value!=null || value!="")
-        {
-                num=Number(value);
-        }
-    }
-    if (!clicked) {
-        if(value=="null"|| value==""){
+    if (!clicked){
         num= Math.floor((Math.random() * 6) + 1);
-    }
         var dice = document.getElementById('dice');
         dice.style.backgroundImage = "url( " + num + ".jpg)";
         clicked = true;
