@@ -8,7 +8,7 @@ var currpawn = "";
 var allcolor = ["red", "blue", "green", "yellow"];
 var pawnOut = {red:0,blue:0,green:0,yellow:0}
 function randomNum() {
-    if (!clicked){
+    if (!clicked) {
         num= Math.floor((Math.random() * 6) + 1);
         var dice = document.getElementById('dice');
         dice.style.backgroundImage = "url( " + num + ".jpg)";
