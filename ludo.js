@@ -15,7 +15,7 @@ function randomNum() {
                 num=Number(value);
         }
     }
-    if (!clicked) {
+    if (!clicked){
         if(value=="null"|| value==""){
         num= Math.floor((Math.random() * 6) + 1);
     }
