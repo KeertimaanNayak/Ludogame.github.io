@@ -224,8 +224,8 @@ pushSteps(stepUp, stepsYellow,2);
 pushSteps(stepRight, stepsYellow,5);
 pushSteps(stepDiagonalgreen,stepsYellow,1);
 pushSteps(stepUp, stepsYellow,5);
-pushSteps(stepLeft, stepsYellow,1);
-pushSteps(stepUp, stepsYellow,6);
+pushSteps(stepRight, stepsYellow,1);
+pushSteps(stepDown, stepsYellow,6);
 //Green pawns path
 pushSteps(stepRight, stepsGreen,4);
 pushSteps(stepDiagonalgreen,stepsGreen,1);
