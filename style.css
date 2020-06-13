@@ -99,7 +99,7 @@ footer{
 	text-align: center;
 }
 @media(min-width:1200px){
-	.intro h1{
+    .intro h1{
     position: absolute;
     top:30px;
     left:200px;
@@ -118,14 +118,14 @@ footer{
   from{left:300px;}
   to{left:600px;}
 }
-	.intro h2{
-	position:absolute;
-	top: 520px;
-	left:670px;
-	font-size: 35px;
-	font-family: Comic Sans MS;
-	color:#031321;
-	animation-name: example2;
+    .intro h2{
+    position:absolute;
+    top: 520px;
+    left:670px;
+    font-size: 35px;
+    font-family: Comic Sans MS;
+    color:#031321;
+    animation-name: example2;
     animation-duration: 2s;
     animation-direction:alternate-reverse;
     animation-direction: center;
@@ -133,20 +133,20 @@ footer{
     animation-iteration-count: infinite;
 }
 @keyframes example2{
-	from{font-size: 35px;}
-	to{font-size: 50px;}
+    from{font-size: 35px;}
+    to{font-size: 50px;}
 }
 #Ludo{
-	left: 580px;
-	width:15%;
+    left: 580px;
+    width:15%;
 }
 #Instruction{
-	left: 900px;
-	width: 17%;
+    left: 900px;
+    width: 17%;
 }
 }
 @media(max-width: 1200px){
-		.intro h1{
+        .intro h1{
     position: absolute;
     top:30px;
     left:200px;
@@ -165,14 +165,14 @@ footer{
   from{left:100px;}
   to{left:500px;}
 }
-	.intro h2{
-	position:absolute;
-	top: 520px;
-	left:320px;
-	font-size: 35px;
-	font-family: Comic Sans MS;
-	color:#031321;
-	animation-name: example2;
+    .intro h2{
+    position:absolute;
+    top: 520px;
+    left:320px;
+    font-size: 35px;
+    font-family: Comic Sans MS;
+    color:#031321;
+    animation-name: example2;
     animation-duration: 2s;
     animation-direction:alternate-reverse;
     animation-direction: center;
@@ -180,20 +180,20 @@ footer{
     animation-iteration-count: infinite;
 }
 @keyframes example2{
-	from{font-size: 35px;}
-	to{font-size: 50px;}
+    from{font-size: 35px;}
+    to{font-size: 50px;}
 }
 #Ludo{
-	left: 250px;
-	width:20%;
+    left: 250px;
+    width:20%;
 }
 #Instruction{
-	left: 560px;
-	width:20%;
+    left: 560px;
+    width:20%;
 }
 }
 @media(max-width:990px){
-		.intro h1{
+        .intro h1{
     position: absolute;
     top:30px;
     left:200px;
@@ -212,14 +212,14 @@ footer{
   from{left:120px;}
   to{left:300px;}
 }
-	.intro h2{
-	position:absolute;
-	top: 520px;
-	left:180px;
-	font-size: 35px;
-	font-family: Comic Sans MS;
-	color:#031321;
-	animation-name: example2;
+    .intro h2{
+    position:absolute;
+    top: 520px;
+    left:180px;
+    font-size: 35px;
+    font-family: Comic Sans MS;
+    color:#031321;
+    animation-name: example2;
     animation-duration: 2s;
     animation-direction:alternate-reverse;
     animation-direction: center;
@@ -227,20 +227,20 @@ footer{
     animation-iteration-count: infinite;
 }
 @keyframes example2{
-	from{font-size: 35px;}
-	to{font-size: 50px;}
+    from{font-size: 35px;}
+    to{font-size: 50px;}
 }
 #Ludo{
-	left: 170px;
-	width:20%;
+    left: 170px;
+    width:20%;
 }
 #Instruction{
-	left: 480px;
-	width:24%;
+    left: 480px;
+    width:24%;
 }
 }
 @media(max-width:800px){
-		.intro h1{
+        .intro h1{
     position: absolute;
     top:30px;
     left:200px;
@@ -259,14 +259,14 @@ footer{
   from{left:80px;}
   to{left:170px;}
 }
-	.intro h2{
-	position:absolute;
-	top: 530px;
-	left:140px;
-	font-size: 30px;
-	font-family: Comic Sans MS;
-	color:#031321;
-	animation-name: example2;
+    .intro h2{
+    position:absolute;
+    top: 530px;
+    left:140px;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    color:#031321;
+    animation-name: example2;
     animation-duration: 2s;
     animation-direction:alternate-reverse;
     animation-direction: center;
@@ -274,22 +274,22 @@ footer{
     animation-iteration-count: infinite;
 }
 @keyframes example2{
-	from{font-size: 30px;}
-	to{font-size: 40px;}
+    from{font-size: 30px;}
+    to{font-size: 40px;}
 }
 #Ludo{
-	top: 600px;
-	left: 200px;
-	width:35%;
+    top: 600px;
+    left: 200px;
+    width:35%;
 }
 #Instruction{
-	top:660px;
-	left: 200px;
-	width:35%;
+    top:660px;
+    left: 200px;
+    width:35%;
 }
 }
 @media(max-width:600px){
-		.intro h1{
+        .intro h1{
     position: absolute;
     top:30px;
     left:200px;
@@ -308,14 +308,14 @@ footer{
   from{left:40px;}
   to{left:100px;}
 }
-	.intro h2{
-	position:absolute;
-	top: 530px;
-	left:80px;
-	font-size: 30px;
-	font-family: Comic Sans MS;
-	color:#031321;
-	animation-name: example2;
+    .intro h2{
+    position:absolute;
+    top: 470px;
+    left:80px;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    color:#031321;
+    animation-name: example2;
     animation-duration: 2s;
     animation-direction:alternate-reverse;
     animation-direction: center;
@@ -323,17 +323,124 @@ footer{
     animation-iteration-count: infinite;
 }
 @keyframes example2{
-	from{font-size: 30px;}
-	to{font-size: 40px;}
+    from{font-size: 30px;}
+    to{font-size: 40px;}
 }
 #Ludo{
-	top:600px;
-	left: 160px;
-	width:40%;
+    top:580px;
+    left: 140px;
+    width:40%;
 }
 #Instruction{
-	top:660px;
-	left: 160px;
-	width:40%;
+    top:640px;
+    left: 140px;
+    width:40%;
+}
+footer{
+    top:800px;
+}
+}
+@media(max-width:500px){
+        .intro h1{
+    position: absolute;
+    top:20px;
+    left:150px;
+    font-size: 40px;
+    font-family: Comic Sans MS;
+    color: red;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-direction:alternate-reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+  from {color: red;}
+  to {color: yellow;}
+  from{left:20px;}
+  to{left:80px;}
+}
+    .intro h2{
+    position:absolute;
+    top: 500px;
+    left:60px;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    color:#031321;
+    animation-name: example2;
+    animation-duration: 2s;
+    animation-direction:alternate-reverse;
+    animation-direction: center;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes example2{
+    from{font-size: 20px;}
+    to{font-size: 30px;}
+}
+#Ludo{
+    top:560px;
+    left: 90px;
+    width:45%;
+}
+#Instruction{
+    top:620px;
+    left: 90px;
+    width:45%;
+}
+footer{
+    top:800px;
+}
+}
+@media(max-width:400px){
+        .intro h1{
+    position: absolute;
+    top:20px;
+    left:150px;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    color: red;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-direction:alternate-reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+  from {color: red;}
+  to {color: yellow;}
+  from{left:20px;}
+  to{left:50px;}
+}
+    .intro h2{
+    position:absolute;
+    top: 500px;
+    left:30px;
+    font-size: 20px;
+    font-family: Comic Sans MS;
+    color:#031321;
+    animation-name: example2;
+    animation-duration: 2s;
+    animation-direction:alternate-reverse;
+    animation-direction: center;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes example2{
+    from{font-size: 20px;}
+    to{font-size: 25px;}
+}
+#Ludo{
+    top:560px;
+    left: 35px;
+    width:65%;
+}
+#Instruction{
+    top:620px;
+    left: 35px;
+    width:65%;
+}
+footer{
+    top:800px;
 }
 }
