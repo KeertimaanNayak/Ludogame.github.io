@@ -144,3 +144,17 @@ ul li{
 		left:200px;
 	}
 }
+@media(max-width:600px){
+	ul li{
+		font-size: 10px;
+	}
+}
+@media(max-width:500px){
+	h1{
+		font-size: 50px;
+		left:10px;
+	}
+	#Back{
+		width:18%;
+	}
+}
